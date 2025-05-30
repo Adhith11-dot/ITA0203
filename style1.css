@@ -1,0 +1,22 @@
+/* Parent element */
+.parent {
+  width: 400px;
+  height: 200px;
+  background-color: #e0e0e0;
+  position: relative; /* Needed for relative positioning context */
+  margin: 50px;
+  padding: 20px;
+}
+
+/* Child element */
+.child {
+  width: 200px;
+  height: 100px;
+  background-color: #4caf50;
+  position: relative; /* Relative to its original position */
+  left: 50px;  /* Moves right */
+  top: 20px;   /* Moves down */
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+}
